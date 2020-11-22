@@ -1,12 +1,20 @@
 {
-  "name": "react-navigation",
-  "displayName": "react-navigation",
   "expo": {
-    "name": "react-navigation",
-    "slug": "react-navigation",
+    "name": "movies",
+    "slug": "movies",
+    "description": "fabymoviereactapp",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "ios": {
+      "bundleIdentifier": "cr.ac.ucr.movies",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "cr.ac.ucr.movies",
+      "versionCode": 1
+    }
   }
 }
